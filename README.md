@@ -24,7 +24,7 @@ export type Product = {
   type: string;
 };
 
-export const getProducts: () => Promise<ServerReponse<Product[], Error>> =
+export const getProducts: () => Promise<ServerResponse<Product[], Error>> =
   mod.default<Product[]>(() =>
     fetch(
       "https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json"
