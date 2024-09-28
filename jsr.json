@@ -1,0 +1,9 @@
+{
+  "name": "@jhenbert/fetch",
+  "version": "1.0.1",
+  "exports": "./index.ts",
+  "publish": {
+    "include": ["jsr.json", "index.ts", "README.md"],
+    "exclude": [".github", "LICENSE"]
+  }
+}
